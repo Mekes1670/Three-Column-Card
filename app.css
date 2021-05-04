@@ -46,7 +46,7 @@ color: hsla(0, 0%, 100%, 0.75);
 padding: 0 0 35px 0;
 margin-bottom: 35px;
 font-size: 15px;
-line-height: 1.3rem;
+line-height: 1.5rem;
 }
 
 h2 {
@@ -73,6 +73,7 @@ button {
   font-weight: 400;
   font-family: 'Lexend Deca', sans-serif;
   /* font-family: 'Big Shoulders Display', cursive; */
+  /* transition: 0.5s; */
 
 }
 
@@ -120,4 +121,18 @@ cursor: pointer;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 0;
   }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:visited {
+ color: inherit;
+}
+
+button:hover {
+  background-color: inherit;
+  transition: 0.5s;
+  color: hsl(0, 0%, 95%);
 }
